@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "244626784052",
+    "firebase_url": "https://high-school-connect-ca098.firebaseio.com",
+    "project_id": "high-school-connect-ca098",
+    "storage_bucket": "high-school-connect-ca098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244626784052:android:4fba89e780272211e7af61",
+        "android_client_info": {
+          "package_name": "com.codingwithflutter.firebase_auth_demo_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244626784052-t5509c076jaa1stkagbna086tjj5cqpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingwithflutter.firebase_auth_demo_flutter",
+            "certificate_hash": "de719945b12ddd44608aa7315e5479cbf001f25e"
+          }
+        },
+        {
+          "client_id": "244626784052-9a6o1khde9gke5tk5q030qqcot9mbahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCljo1zQxJIh-oKo1oAJAB2NJNIFUW5DhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244626784052-9a6o1khde9gke5tk5q030qqcot9mbahs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "244626784052-fa1hnd86rv15ageeq3qnbahft6pvqi8c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codingwithflutter.firebaseAuthDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244626784052:android:7c01609b1232e578e7af61",
+        "android_client_info": {
+          "package_name": "com.example.fiveg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244626784052-oi0gs9q71b6l5djce5j358usah8h1sd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fiveg",
+            "certificate_hash": "de719945b12ddd44608aa7315e5479cbf001f25e"
+          }
+        },
+        {
+          "client_id": "244626784052-9a6o1khde9gke5tk5q030qqcot9mbahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCljo1zQxJIh-oKo1oAJAB2NJNIFUW5DhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244626784052-9a6o1khde9gke5tk5q030qqcot9mbahs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "244626784052-fa1hnd86rv15ageeq3qnbahft6pvqi8c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codingwithflutter.firebaseAuthDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
