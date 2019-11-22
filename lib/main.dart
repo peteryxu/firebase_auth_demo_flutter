@@ -13,7 +13,11 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // [initialAuthServiceType] is made configurable for testing
+
   const MyApp({this.initialAuthServiceType = AuthServiceType.firebase});
+  //use and test when offline:
+  //const MyApp({this.initialAuthServiceType = AuthServiceType.mock});
+
   final AuthServiceType initialAuthServiceType;
 
   @override

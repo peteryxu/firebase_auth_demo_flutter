@@ -1,7 +1,7 @@
-import 'package:firebase_auth_demo_flutter/app/home_page.dart';
 import 'package:firebase_auth_demo_flutter/app/sign_in/sign_in_page.dart';
 import 'package:firebase_auth_demo_flutter/services/auth_service.dart';
 import 'package:flutter/material.dart';
+import './pages/starter_home_page.dart';
 
 /// Builds the signed-in or non signed-in UI, depending on the user snapshot.
 /// This widget should be below the [MaterialApp].
@@ -14,7 +14,7 @@ class AuthWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (userSnapshot.connectionState == ConnectionState.active) {
-      return userSnapshot.hasData ? HomePage() : SignInPageBuilder();
+      return userSnapshot.hasData ? StarterHomePage() : SignInPageBuilder();
     }
     return Scaffold(
       body: Center(

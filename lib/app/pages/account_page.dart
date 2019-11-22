@@ -9,8 +9,12 @@ import 'package:firebase_auth_demo_flutter/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
+import '../../constants/constants.dart';
 
-class HomePage extends StatelessWidget {
+class AccountPage extends StatelessWidget {
+  const AccountPage({Key key, this.bt}) : super(key: key);
+  final BottomTab bt;
+
   Future<void> _signOut(BuildContext context) async {
     try {
       final AuthService auth = Provider.of<AuthService>(context);
@@ -40,7 +44,9 @@ class HomePage extends StatelessWidget {
     final user = Provider.of<User>(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text(Strings.homePage),
+        //title: Text(Strings.homePage),
+        title: Text(bt.title),
+        backgroundColor: bt.color,
         actions: <Widget>[
           FlatButton(
             key: Key(Keys.logout),
